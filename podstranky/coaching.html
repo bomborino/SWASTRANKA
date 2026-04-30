@@ -34,13 +34,10 @@
                 <p class="mt-2 text-center text-sm text-gray-400">Take your gameplay to the next level.</p>
             </div>
             
-            <form action="https://api.web3forms.com/submit" method="POST" class="mt-8 space-y-6">
-                <!-- ZDE JE TVŮJ NOVÝ KEY -->
-                <input type="hidden" name="access_key" value="be626e4f-dde4-42cd-9927-f1ff3b70b723">
-                <input type="hidden" name="from_name" value="Coaching Application Form">
-                <input type="hidden" name="subject" value="New Coaching Sign-up">
+            <form action="process_form.php" method="POST" class="mt-8 space-y-6">
                 
-                <!-- DŮLEŽITÉ: Redirect funguje zdarma pouze na stejnou doménu -->
+
+                
                 <input type="hidden" name="redirect" value="https://niggatron.static2.website/subpages/coaching.html">
 
                 <div class="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-2">
@@ -107,7 +104,6 @@
             </div>
         </div>
     </div>
-<!-- Static App Form Collection Script -->
 <script src="https://static.app/js/static-forms.js" type="text/javascript"></script>
 
 <script src="https://static.app/js/static.js" type="text/javascript"></script>
